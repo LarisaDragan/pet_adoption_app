@@ -1,0 +1,24 @@
+{
+  "name": "backend-service",
+  "version": "1.0.0",
+  "description": "Backend service for the pet adoption project",
+  "main": "index.js",
+  "author": "Larisa Dragan",
+  "scripts": {
+    "start": "nodemon server.js",
+    "format": "npx prettier --write ."
+  },
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.5.1",
+    "nodemon": "^2.0.19",
+    "save": "^2.9.0"
+  },
+  "devDependencies": {
+    "prettier": "2.7.1"
+  }
+}
